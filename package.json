@@ -16,7 +16,7 @@
     "nuxt-property-decorator": "2.9.1",
     "vue": "2.7.16",
     "vue-server-renderer": "2.7.16",
-    "vuex": "^4.1.0"
+    "vuex": "3.6.2"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",

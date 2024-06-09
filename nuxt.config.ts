@@ -5,7 +5,7 @@ const config: NuxtConfig = {
   buildModules: [
     '@nuxt/typescript-build'
   ],
-
+  store: true,
 }
 
 export default config
