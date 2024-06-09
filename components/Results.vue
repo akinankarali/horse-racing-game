@@ -45,10 +45,10 @@ td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
-  background-color: #feae6f;
+  background-color: #f6dcac;
 }
 
 th {
-  background-color: #f6dcac;
+  background-color: #feae6f;
 }
 </style>
