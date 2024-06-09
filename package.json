@@ -1,8 +1,15 @@
 {
   "name": "nuxt-community-typescript-template",
-  "description": "A boilerplate to start a Nuxt+TS project quickly",
   "version": "2.15.8",
   "private": true,
+  "description": "A boilerplate to start a Nuxt+TS project quickly",
+  "scripts": {
+    "build": "nuxt build",
+    "test:unit": "vue-cli-service test:unit",
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
   "dependencies": {
     "@nuxtjs/composition-api": "0.32.0",
     "nuxt": "2.15.8",
@@ -11,15 +18,14 @@
     "vue-server-renderer": "2.7.16",
     "vuex": "^4.1.0"
   },
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@nuxt/types": "2.15.8",
-    "@nuxt/typescript-build": "2.1.0"
+    "@nuxt/typescript-build": "2.1.0",
+    "@vue/cli-plugin-unit-jest": "~5.0.0",
+    "@vue/test-utils": "^1.1.3",
+    "@vue/vue2-jest": "^27.0.0-alpha.2",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.5"
   }
 }
