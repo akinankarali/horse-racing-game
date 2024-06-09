@@ -43,7 +43,7 @@ export const mutations: MutationTree<RaceState> = {
       horse.condition = updatedHorse.condition;
     }
   },
-  UpdateCurrentRound(state: RaceState, round: number) {
+  UPDATE_CURRENT_ROUND(state: RaceState, round: number) {
     state.currentRound = round;
   },
   
@@ -124,7 +124,7 @@ export const actions: ActionTree<RaceState, RaceState> = {
           })),
         };
 
-        commit('UpdateCurrentRound', roundIndex );
+        commit('UPDATE_CURRENT_ROUND', roundIndex );
         commit('ADD_RACE_RESULT', runResult);
       }
 
